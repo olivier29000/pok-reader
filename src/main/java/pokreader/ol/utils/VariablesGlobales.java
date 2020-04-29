@@ -5,89 +5,82 @@ import java.awt.Point;
 public class VariablesGlobales {
 
 
-	public static int xJoueur0 = 69;
-	public static int yJoueur0 = 572;
-	public static int xPresenceBoutonJoueur0 = 332;
-	public static int yPresenceBoutonJoueur0 = 560;
+	public static int xJoueur0 = 185;
+	public static int yJoueur0 = 649;
+	public static int xPresenceBoutonJoueur0 = 407;
+	public static int yPresenceBoutonJoueur0 = 609;
 	
-	public static int xJoueur1 = 69;
-	public static int yJoueur1 = 225;
-	public static int xPresenceBoutonJoueur1 = 309;
-	public static int yPresenceBoutonJoueur1 = 329;
+	public static int xJoueur1 = 92;
+	public static int yJoueur1 = 272;
+	public static int xPresenceBoutonJoueur1 = 228;
+	public static int yPresenceBoutonJoueur1 = 342;
 	
-	public static int xJoueur2 = 524;
-	public static int yJoueur2 = 125;
-	public static int xPresenceBoutonJoueur2 = 488;
-	public static int yPresenceBoutonJoueur2 = 243;
+	public static int xJoueur2 = 559;
+	public static int yJoueur2 = 175;
+	public static int xPresenceBoutonJoueur2 = 517;
+	public static int yPresenceBoutonJoueur2 = 228;
 	
-	public static int xJoueur3 = 969;
-	public static int yJoueur3 = 225;
-	public static int xPresenceBoutonJoueur3 = 952;
-	public static int yPresenceBoutonJoueur3 = 329;
+	public static int xJoueur3 = 1022;
+	public static int yJoueur3 = 272;
+	public static int xPresenceBoutonJoueur3 = 1024;
+	public static int yPresenceBoutonJoueur3 = 345;
 	
-	public static int xJoueur4 = 969;
-	public static int yJoueur4 = 565;
-	public static int xPresenceBoutonJoueur4 = 926;
-	public static int yPresenceBoutonJoueur4 = 557;
+	public static int xJoueur4 = 931;
+	public static int yJoueur4 = 648;
+	public static int xPresenceBoutonJoueur4 = 849;
+	public static int yPresenceBoutonJoueur4 = 608;
 	
-	public static int xJoueur5 = 524;
-	public static int yJoueur5 = 670;
-	public static int xPresenceBoutonJoueur5 = 557;
-	public static int yPresenceBoutonJoueur5 = 631;
+	public static int xJoueur5 = 558;
+	public static int yJoueur5 = 713;
+	public static int xPresenceBoutonJoueur5 = 518;
+	public static int yPresenceBoutonJoueur5 = 623;
 	
 
 	public static int widthCarte = 80;
-	public static int heightCarte = 105;
+	public static int heightCarte = 107;
 	
-	public static int xCarte1JoueurSensDroite = 18;
-	public static int xCarte1JoueurSensGauche = 112;
+	public static int xCarte1Joueur = 0;
 	public static int yCarte1Joueur = - heightCarte;
-	public static int xCarte2JoueurSensDroite = xCarte1JoueurSensDroite + widthCarte + 2;
-	public static int xCarte2JoueurSensGauche = xCarte1JoueurSensGauche + widthCarte + 2;
-	public static int yCarte2Joueur = heightCarte;
-	public static int widthJoueur = 250;
-	public static int heightJoueur = 90;
+	public static int xCarte2Joueur = xCarte1Joueur + widthCarte + 2;
+	public static int yCarte2Joueur = - heightCarte;
+	public static int widthJoueur = 168;
+	public static int heightJoueur = 56;
 	
 	
-	public static int widthNomJoueur = 160;
-	public static int heightNomJoueur = 45;
-	public static int widthActionJoueur = 95;
-	public static int heightActionJoueur = 95;
+	public static int widthNomJoueur = widthJoueur;
+	public static int heightNomJoueur = heightJoueur/2;
+	public static int widthActionJoueur = 100;
+	public static int heightActionJoueur = 40;
 	
-	public static int xNomJoueurSensDroite = 0;
-	public static int yNomJoueurSensDroite = 0;
-	public static int xNomJoueurSensGauche = widthActionJoueur + 3;
-	public static int yNomJoueurSensGauche = 0;
+	public static int xNomJoueur = 0;
+	public static int yNomJoueur = 0;
 	
 	
-	public static int xStackJoueurSensDroite = 0;
-	public static int yStackJoueurSensDroite = heightJoueur/2;
-	public static int xStackJoueurSensGauche = widthActionJoueur + 3;
-	public static int yStackJoueurSensGauche = yStackJoueurSensDroite;
+	public static int xStackJoueur = 0;
+	public static int yStackJoueur = heightJoueur/2;
 	public static int widthStackJoueur = widthNomJoueur;
 	public static int heightStackJoueur = heightNomJoueur;
+	public static int widthNumeroCarte = 25;
+	public static int heightNumeroCarte = 25;
 	
-	public static int xActionJoueurSensDroite = widthNomJoueur + 3;
-	public static int yActionJoueurSensDroite = 0;
-	public static int xActionJoueurSensGauche = 0;
-	public static int yActionJoueurSensGauche = 0;
+	public static int xActionJoueur = 40;
+	public static int yActionJoueur = - 75;
 	
+	public static int xPresenceJoueur = 132;
+	public static int yPresenceJoueur = -15;
 	
-	public static int xPresenceJoueurSensDroite = xCarte1JoueurSensDroite + widthCarte/2;
-	public static int yPresenceJoueurSensDroite = 30;
-	public static int xPresenceJoueurSensGauche =  xCarte1JoueurSensGauche + widthCarte/2;
-	public static int yPresenceJoueurSensGauche = yPresenceJoueurSensDroite;
-	
-	public static int xCarteFlop0 = 413;
-	public static int yCarteFlop0 = 326;
-	public static int xCarteFlop1 = xCarteFlop0 + widthCarte + 12;
+	public static int xCarteFlop0 = 420;
+	public static int yCarteFlop0 = 350;
+	public static int xCarteFlop1 = xCarteFlop0 + widthCarte + 6;
 	public static int yCarteFlop1 = yCarteFlop0;
-	public static int xCarteFlop2 = xCarteFlop1 + widthCarte + 12;
+	public static int xCarteFlop2 = xCarteFlop1 + widthCarte + 6;
 	public static int yCarteFlop2 = yCarteFlop1;
-	public static int xCarteFlop3 = xCarteFlop2 + widthCarte + 12;
+	public static int xCarteFlop3 = xCarteFlop2 + widthCarte + 6;
 	public static int yCarteFlop3  = yCarteFlop2;
-	public static int xCarteFlop4 = xCarteFlop3 + widthCarte + 12;
+	public static int xCarteFlop4 = xCarteFlop3 + widthCarte + 6;
 	public static int yCarteFlop4  = yCarteFlop3;
+	public static int xPresenceVertJoueurHumain = 715;
+	public static int yPresenceVertJoueurHumain = 760;
 	
 	
 	
@@ -131,11 +124,9 @@ public class VariablesGlobales {
 		this.widthCarte =  (int) (widthCarte * proportion);
 		this.heightCarte =  (int) (heightCarte * proportion);
 		
-		this.xCarte1JoueurSensDroite =  (int) (xCarte1JoueurSensDroite * proportion) + xpointOrigine;
-		this.xCarte1JoueurSensGauche =  (int) (xCarte1JoueurSensGauche * proportion) + xpointOrigine;
+		this.xCarte1Joueur =  (int) (xCarte1Joueur * proportion) + xpointOrigine;
 		this.yCarte1Joueur =  (int) (yCarte1Joueur * proportion) + ypointOrigine;
-		this.xCarte2JoueurSensDroite =  (int) (xCarte2JoueurSensDroite * proportion) + xpointOrigine;
-		this.xCarte2JoueurSensGauche =  (int) (xCarte2JoueurSensGauche * proportion) + xpointOrigine;
+		this.xCarte2Joueur =  (int) (xCarte2Joueur * proportion) + xpointOrigine;
 		this.yCarte2Joueur =  (int) (yCarte2Joueur * proportion) + ypointOrigine;
 		this.widthJoueur =  (int) (widthJoueur * proportion);
 		this.heightJoueur =  (int) (heightJoueur * proportion);
@@ -145,30 +136,24 @@ public class VariablesGlobales {
 		this.heightNomJoueur =  (int) (heightNomJoueur * proportion);
 		this.widthActionJoueur =  (int) (widthActionJoueur * proportion);
 		this.heightActionJoueur =  (int) (heightActionJoueur * proportion);
+		this.widthNumeroCarte =  (int) (widthNumeroCarte * proportion);
+		this.heightNumeroCarte =  (int) (heightNumeroCarte * proportion);
 		
-		this.xNomJoueurSensDroite =  (int) (xNomJoueurSensDroite * proportion)  + xpointOrigine;
-		this.yNomJoueurSensDroite =  (int) (yNomJoueurSensDroite * proportion)  + ypointOrigine ;
-		this.xNomJoueurSensGauche =  (int) (xNomJoueurSensGauche * proportion) + xpointOrigine;
-		this.yNomJoueurSensGauche =  (int) (yNomJoueurSensGauche * proportion) + ypointOrigine;
+		this.xNomJoueur =  (int) (xNomJoueur * proportion);
+		this.yNomJoueur =  (int) (yNomJoueur * proportion);
 		
 		
-		this.xStackJoueurSensDroite =  (int) (xStackJoueurSensDroite * proportion) + xpointOrigine;
-		this.yStackJoueurSensDroite =  (int) (yStackJoueurSensDroite * proportion) + ypointOrigine;
-		this.xStackJoueurSensGauche =  (int) (xStackJoueurSensGauche * proportion) + xpointOrigine;
-		this.yStackJoueurSensGauche =  (int) (yStackJoueurSensGauche * proportion) + ypointOrigine;
+		this.xStackJoueur =  (int) (xStackJoueur * proportion);
+		this.yStackJoueur =  (int) (yStackJoueur * proportion);
 		this.widthStackJoueur =  (int) (widthStackJoueur * proportion);
 		this.heightStackJoueur =  (int) (heightStackJoueur * proportion);
 		
-		this.xActionJoueurSensDroite =  (int) (xActionJoueurSensDroite * proportion) + xpointOrigine;
-		this.yActionJoueurSensDroite =  (int) (yActionJoueurSensDroite * proportion) + ypointOrigine;
-		this.xActionJoueurSensGauche =  (int) (xActionJoueurSensGauche * proportion) + xpointOrigine;
-		this.yActionJoueurSensGauche =  (int) (yActionJoueurSensGauche * proportion) + ypointOrigine;
+		this.xActionJoueur =  (int) (xActionJoueur * proportion);
+		this.yActionJoueur =  (int) (yActionJoueur * proportion);
 		
 		
-		this.xPresenceJoueurSensDroite =  (int) (xPresenceJoueurSensDroite * proportion) + xpointOrigine;
-		this.yPresenceJoueurSensDroite =  (int) (yPresenceJoueurSensDroite * proportion) + ypointOrigine;
-		this.xPresenceJoueurSensGauche =   (int) (xPresenceJoueurSensGauche * proportion) + xpointOrigine;
-		this.yPresenceJoueurSensGauche =  (int) (yPresenceJoueurSensGauche * proportion) + ypointOrigine;
+		this.xPresenceJoueur =  (int) (xPresenceJoueur * proportion);
+		this.yPresenceJoueur =  (int) (yPresenceJoueur * proportion);
 		
 		this.xCarteFlop0 =  (int) (xCarteFlop0 * proportion) + xpointOrigine;
 		this.yCarteFlop0 =  (int) (yCarteFlop0 * proportion) + ypointOrigine;
@@ -181,9 +166,11 @@ public class VariablesGlobales {
 		this.xCarteFlop4 =  (int) (xCarteFlop4 * proportion) + xpointOrigine;
 		this.yCarteFlop4  =  (int) (yCarteFlop4 * proportion) + ypointOrigine;
 		
+		this.xPresenceVertJoueurHumain =  (int) (xPresenceVertJoueurHumain * proportion) + xpointOrigine; 
+		this.yPresenceVertJoueurHumain = (int) (yPresenceVertJoueurHumain * proportion) + ypointOrigine; 
 		
 		
-		VariablesJoueurs variablesJoueurs = new VariablesJoueurs();
+		VariablesJoueurs variablesJoueurs =  new VariablesJoueurs();
 		VariablesCartes variablesCartes = new VariablesCartes();
 	}
 	

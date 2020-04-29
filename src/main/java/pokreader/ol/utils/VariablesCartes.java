@@ -32,6 +32,10 @@ public class VariablesCartes {
 				new ScreenEntite(pointOrigineScreenEntiteCarte,
 						rectangleScreenEntiteCarte));
 		
+		this.pointPresenceFlop = new Point (
+				pointOrigineScreenEntiteCarte.x+VariablesGlobales.widthCarte,
+				pointOrigineScreenEntiteCarte.y - 5);
+				
 		pointOrigineScreenEntiteCarte = new Point(
 				VariablesGlobales.xCarteFlop1 , VariablesGlobales.yCarteFlop1);
 		rectangleScreenEntiteCarte = new Rectangle(
@@ -65,6 +69,10 @@ public class VariablesCartes {
 				new ScreenEntite(pointOrigineScreenEntiteCarte,
 						rectangleScreenEntiteCarte));
 		
+		this.pointPresenceTurn = new Point (
+				pointOrigineScreenEntiteCarte.x+VariablesGlobales.widthCarte,
+				pointOrigineScreenEntiteCarte.y - 5);
+		
 		pointOrigineScreenEntiteCarte = new Point(
 				VariablesGlobales.xCarteFlop4 , VariablesGlobales.yCarteFlop4);
 		rectangleScreenEntiteCarte = new Rectangle(
@@ -76,7 +84,9 @@ public class VariablesCartes {
 				new ScreenEntite(pointOrigineScreenEntiteCarte,
 						rectangleScreenEntiteCarte));
 		
-		
+		this.pointPresenceRiver = new Point (
+				pointOrigineScreenEntiteCarte.x+VariablesGlobales.widthCarte,
+				pointOrigineScreenEntiteCarte.y - 5);
 				
 	}
 	
